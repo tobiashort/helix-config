@@ -11,6 +11,8 @@ select = "underline"
 [editor.inline-diagnostics]
 cursor-line = "warning"
 
-[keys.normal."g"]
-F = "jump_forward"
-B = "jump_backward"
+[keys.normal]
+"C-n" = "search_selection"
+
+[keys.select]
+"C-n" = "search_selection"
